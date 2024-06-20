@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="icon" href="favicon.ico" />
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1c5b92;
+        }
+
+        #idMenuFo {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            flex-direction: column;
+            border-radius: 18px;
+            align-items: center
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>
+
+    </h1>
+
+    <div id="idMenuFo">
+        <ul>
+            <p>É assim que conhecemos música:</p>
+            <li><a href="index.html">Página inicial</a></li>
+            <li><a href="galeria.html">Cantores mais famosos do ano de 2006</a> <br /></li>
+            <p>Para ter um site personalizado:</p>
+            <li><a href="form.html">Cadastro</a></li>
+        </ul>
+    </div>
+
+    <h2>
+        Cadastro para personalizarmos seu site e trazermos músicas de 2006 para seu site.
+    </h2>
+
+    <form action="">
+        <fieldset>
+            <legend>
+                Vamos te conhecer melhor:
+            </legend>
+            <label for="idNome">Digite seu nome completo:</label>
+            <input name="nomeCad" type="text" id="idNome" /><br />
+            <label for="idData">Data de Nascimento:</label>
+            <input name="dataNasCad" type="date" id="idData" /><br />
+            <label for="idSenha">Digite sua senha:</label>
+            <input name="senhaCad" type="password" id="idSenha" /><br />
+            <label for="idEmail">Digite seu email:</label>
+            <input name="emailCad" type="email" id="idEmail" /><br />
+            <p>Marque seu estilo favorito:</p>
+            <input type="radio" id="idRock" name="estiloM" /><label for="idRock">Rock/Rock pop</label><br />
+            <input type="radio" id="idCoun" name="estiloM" /><label for="idCoun">Country</label><br />
+            <input type="radio" id="idEmo" name="estiloM" /><label for="idEmo">Emo</label><br />
+            <input type="radio" id="idEle" name="estiloM" /><label for="idEle">Eletrônica</label><br />
+            <input type="radio" id="idHip" name="estiloM" /><label for="idHip">Hip hop</label><br />
+            <label for="idCantor">Selecione seu cantor favorito:</label> <br />
+            <select id="idCantor">
+                <option value="nulo"></option>
+                <option value="justin">Justin Timberlake</option>
+                <option value="beyouce">Beyoncé</option>
+                <option value="rihanna">Rihanna</option>
+                <option value="christina">Christina Aguilera</option>
+            </select>
+            <br />
+            <br />
+            <input type="submit" value="Envie">
+            <input type="reset" value="Cancelar">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
