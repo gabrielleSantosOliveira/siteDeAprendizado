@@ -1,0 +1,89 @@
+:root{
+    --verde: #5FAD41;
+    --amarelo: #BFAE48;
+    --carvaoazul: #2E4052;
+    --claroazul: #416788;
+    --roxo: #5C0029;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    text-align: center;
+    background-color: var(--amarelo);
+    padding: 9px;
+}
+
+#logoheader{
+    display: flex;
+    justify-content: left;
+    width: auto;
+    height: 85%;
+    padding: 0;
+}
+
+#idMenu{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    border-radius: 18px;
+    color: var(--preto);
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    margin: 5px 9px;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+main{
+   flex:1;
+   width: 100vw;
+   overflow: scroll;
+   overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-indent: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    font-size: 14px;
+}
+
+
+form{
+    text-align: justify;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    background-color: var(--claroazul);
+    width: 100%;
+    height: 25vh;
+}
